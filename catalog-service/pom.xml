@@ -117,6 +117,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<classifier>exec</classifier>
+					<mainClass>com.sivalabs.catalogservice.CatalogServiceApplication.java</mainClass>
 				</configuration>
 				<executions>
 					<execution>
