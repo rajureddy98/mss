@@ -9,7 +9,7 @@ pipeline {
         }
         stage('scm checkout') {
             steps {
-               git 'https://github.com/rajureddy98/mss.git' 
+               git 'https://github.com/rajureddy98/discovery-service.git' 
             }
         }
         stage('parent-build'){
