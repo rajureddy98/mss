@@ -16,7 +16,7 @@ pipeline {
             steps {
                 sh '''
                     echo $JAVA_HOME
-                    mvn clean package
+                    mvn clean package -DskipTests=true
                 '''
             }
         }
